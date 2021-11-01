@@ -1,5 +1,5 @@
-1030520527
+Öğrenci Numarası: 1030520527
 <br/>
-Recep Türker
+Öğrenci Adı: Recep Türker
 <br/>
-BS435Web Programlama
+Ders Adı: BS435Web Programlama
