@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>Kediyi Bul</title>
 </head>
+
 <body>
+    <div class="header">
+        <h1>Kedi Bulmaca</h1>
+        <hr>
+        <p>Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmetedir. İlk tercihte Kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.</p>
+        <hr>
+    </div>
     
+
+    <div class="container">
+        <div id="one" class="inlineDiv"><img src="img/card.jpg" alt=""></div>
+        <div id="two" class="inlineDiv"><img src="img/card.jpg" alt=""></div>
+        <div id="three" class="inlineDiv"><img src="img/card.jpg" alt=""></div>
+    </div>
+ 
+    <br>
+    <div class="footer">
+        <p id="start">Kedi kartını bulmak için üzerine tıklamalısınız.</p>
+        <p style="display: none;" id="resultWin">Kazandın!!! Tebrik ederiz :) Yeni oyun oynamak istersen <a class="newGame" href="#">buraya</a> tıklayabilirsin.</p>
+        <p style="display: none;" id="resultLose">Kaybettin :) Yeni bir oyun oyanamak istersen <a class="newGame" href="#">buraya</a> tıklayabilirsin.</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
